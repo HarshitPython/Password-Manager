@@ -20,7 +20,7 @@ def generate_password():
     password_list = password_letters + password_symbols + password_numbers
     shuffle(password_list)
 
-#     password = "".join(password_list)
+    password = "".join(password_list)
 #     password_entry.insert(0, password)
 #     pyperclip.copy(password)
 
