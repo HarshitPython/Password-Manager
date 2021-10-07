@@ -4,7 +4,7 @@ from random import choice, randint, shuffle
 import pyperclip
 import json
 
-# # ---------------------------- PASSWORD GENERATOR ------------------------------- #
+# ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 # #Password Generator Project
 # def generate_password():
