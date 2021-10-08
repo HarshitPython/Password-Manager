@@ -31,7 +31,7 @@ def save():
     email = email_entry.get()
     password = password_entry.get()
     new_data = {
-#         website: {
+        website: {
 #             "email": email,
 #             "password": password,
 #         }
