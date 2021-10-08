@@ -33,7 +33,7 @@ def save():
     new_data = {
         website: {
             "email": email,
-#             "password": password,
+            "password": password,
 #         }
 #     }
 
