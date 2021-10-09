@@ -53,11 +53,12 @@ def save():
             data.update(new_data)
 
             with open("data.json", "w") as data_file:
+                
                 #Saving updated data
                 json.dump(data, data_file, indent=4)
 #         finally:
-#             website_entry.delete(0, END)
-#             password_entry.delete(0, END)
+            website_entry.delete(0, END)
+            password_entry.delete(0, END)
 
 
 # # ---------------------------- FIND PASSWORD ------------------------------- #
