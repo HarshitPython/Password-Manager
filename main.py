@@ -50,9 +50,9 @@ def save():
                 json.dump(new_data, data_file, indent=4)
         else:
             #Updating old data with new data
-#             data.update(new_data)
+            data.update(new_data)
 
-#             with open("data.json", "w") as data_file:
+            with open("data.json", "w") as data_file:
 #                 #Saving updated data
 #                 json.dump(data, data_file, indent=4)
 #         finally:
