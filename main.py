@@ -40,8 +40,8 @@ def save():
 
     if len(website) == 0 or len(password) == 0:
         messagebox.showinfo(title="Oops", message="Please make sure you haven't left any fields empty.")
-#     else:
-#         try:
+    else:
+        try:
 #             with open("data.json", "r") as data_file:
 #                 #Reading old data
 #                 data = json.load(data_file)
