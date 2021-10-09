@@ -48,8 +48,8 @@ def save():
         except FileNotFoundError:
             with open("data.json", "w") as data_file:
                 json.dump(new_data, data_file, indent=4)
-#         else:
-#             #Updating old data with new data
+        else:
+            #Updating old data with new data
 #             data.update(new_data)
 
 #             with open("data.json", "w") as data_file:
