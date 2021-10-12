@@ -108,7 +108,7 @@ email_entry.insert(0, "Harshit@gmail.com")
 password_entry = Entry(width=21)
 password_entry.grid(row=3, column=1)
 
-# # Buttons
+# Buttons
 # search_button = Button(text="Search", width=13, command=find_password)
 # search_button.grid(row=1, column=2)
 # generate_password_button = Button(text="Generate Password", command=generate_password)
